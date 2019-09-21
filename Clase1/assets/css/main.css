@@ -1,0 +1,148 @@
+/*font-family: 'Livvic', sans-serif; Títulos
+font-family: 'Nanum Gothic', sans-serif; Bedu*/
+@media only screen and (max-width:600px){
+    .mobile{
+        display: block;
+    }
+    .dropdown{
+        display: none;
+    }
+    .mobile:hover .dropdown{
+        display:block;
+    }
+    .menu{
+        display: none;
+    }
+}
+@media only screen and (min-width:600px){
+    .mobile{
+        display: none;
+    }
+    .dropdown{
+        display: none;
+    }
+    .menu{
+        display: block;
+    }
+}
+.drop_style{
+    color: #08415d;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 20px;
+}
+nav{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b9ced9;
+    font-family: 'Nanum Gothic', sans-serif;
+
+}
+nav img{
+    height: 100%;
+    width: auto;
+} 
+.menu a{
+    color: #08415d;
+    text-decoration: none;
+}
+.menu a:link{
+    color: #08415d;
+}
+.menu a:hover{
+    color: #1f6f97;
+}
+.menu a:visited{
+    color: #1f9fdf;
+}
+.sign{
+    border: 1px solid #6ebde5;
+    border-radius: 15px;
+    padding: 5px 5px;
+}
+.sign:hover{
+    background: #ecf3f6;
+}
+#home-cover{
+    background-image: url('../img/background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.title{ 
+    font-family: 'Livvic', sans-serif;
+    color:white;
+    text-align: center;
+}
+.title p:first-child{
+    font-size: 40px;
+}
+.title p:last-child{
+    font-size: 30px;
+}
+.search-bar input{
+    border-color: #FAFAFA;
+    border-style: solid;
+    border-radius: 15px;
+    outline: none; /*quita borde feo que pone el sistema*/
+    padding: 5px 20px 5px 25px;
+    background-image: url('../img/icon-travel.svg');
+    background-size:15px 15px;
+    background-repeat: no-repeat;
+    background-position-x: 5px;
+    background-position-y: center;
+    width: 400px;
+}
+.search-bar input:focus{
+    border-color: #49bef8;
+}
+.search-bar button{
+    border: 3px solid #17506c;
+    border-radius: 15px;
+    padding: 5px 20px;
+    padding: 5px 20px 5px 25px;
+    width: 100px;
+    text-align: center;
+    background: transparent;
+}
+.search-bar button:hover{
+    background-color: #edf3f6;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #b9ced9;
+}
+.contacto{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 20px;
+    
+}
+.social{
+    margin-left: 20px;
+    margin-top: 20px;
+}
+.social a{
+    display: inline-block;
+    margin-left: 10px;
+    width: 25px;
+    height: 25px;
+}
+.social-facebook{
+    background-image: url('../img/facebook.svg');
+}
+.social-instagram{
+    background-image: url('../img/instagram.svg');
+}
+.social-twitter{
+    background-image: url('../img/twitter.svg');
+}

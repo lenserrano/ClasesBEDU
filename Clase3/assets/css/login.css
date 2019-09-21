@@ -1,0 +1,85 @@
+header{
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+header img{
+    height: 100%;
+    width: 15%;
+}
+#container{
+    background-color: #CCC;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 99vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.login{
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 60vh;
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 30px;
+
+}
+.title{ 
+    font-family: 'Livvic', sans-serif;
+    color:black;
+    text-align: center;
+    font-size: 34px;
+}
+.form-label{
+    display: block;
+    color: black;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 16px;
+    padding: 5px 0;
+}
+.input-login{
+    border-radius: 10px;
+    border: 1px solid azure;
+    outline: none;
+    width: 60%;
+    height: 2em;
+}
+.btn-login{
+    background-color: #00A86B;
+    border-radius: 15px;
+    padding: 5px 20px;
+    padding: 5px 20px 5px 25px;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    outline: none;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    margin-top: 10px;
+    align-self: center;
+}
+.btn-login:hover{
+    background-color: #29ab87;
+}
+footer{
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    color: white;
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 10px;
+}
