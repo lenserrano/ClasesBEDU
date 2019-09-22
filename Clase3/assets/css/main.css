@@ -160,7 +160,7 @@ footer{
 #grid-container{
     width: 80vw;
     display: grid;
-    grid-template-rows: repeat(2, 20vh);
+    grid-template-rows: repeat(2, 40vh);
     grid-template-columns: repeat(3, auto);
 }
 
