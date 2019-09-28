@@ -1,0 +1,34 @@
+footer{
+    @include flexbox(0, space-between, center);
+    background-color: $bg_footer;
+}
+.contacto{
+    @include font-style( $font_normal, $fs_normal, $color_footer );
+    margin-left: $c_margin;
+    margin-top: $c_margin;
+    margin-bottom: $s_margin;
+    
+}
+.social{
+    margin-left: $c_margin;
+    margin-top: $c_margin;
+    margin-bottom: $s_margin;
+}
+.social a{
+    display: inline-block;
+    margin-left: $s_margin;
+    width: $icon_size;
+    height: $icon_size;
+}
+.social-facebook{
+    background-image: $bg_facebook;
+    margin-right: $s_margin;
+}
+.social-instagram{
+    background-image: $bg_instagram;
+    margin-right: $s_margin;
+}
+.social-twitter{
+    background-image: $bg_twitter;
+    margin-right: $s_margin;
+}

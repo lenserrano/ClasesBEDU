@@ -1,0 +1,28 @@
+.destinos{
+    margin-top: $top_destinos;
+    @include flexbox( column, center, center );
+}
+.favs{
+    @include font-style( $font_title, $fs_subtitle, $color_title );
+    margin: auto;
+}
+.alt{
+    @include font-style( $font_normal, $fs_big*1.5, $color_main );
+    margin: auto;
+}
+.container{
+    margin-top: $top_destinos;
+    @include flexbox( 0, center, center );
+}
+#grid-container{
+    width: 80vw;
+    @include grid(2, 3);
+    @include font-style( $font_normal, $fs_big, $color_main );
+    margin-top: $top_destinos;
+}
+
+#grid-container div{
+    height: 100%;
+    @include flexbox( column, center, center );
+}
+

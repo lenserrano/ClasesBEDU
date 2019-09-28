@@ -1,0 +1,71 @@
+@import 'mixins';
+
+header{
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    @include flexbox( 0, center, center );
+    margin: 0;
+}
+header img{
+    height: 100%;
+    width: 15%;
+}
+#container{
+    background-color: #CCC;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    width: 99vw;
+    height: 80vh;
+    @include flexbox( 0, center, center );
+}
+.login{
+    background-color: aliceblue;
+    border-radius: 20px;
+    height: 60vh;
+    width: 60vw;
+    @include flexbox( column, center, left );
+    padding-left: 30px;
+
+}
+.title{ 
+    @include font-style( 'Livvic', 34px, black );
+    text-align: center;
+}
+.form-label{
+    display: block;
+    @include font-style( 'Nanum Gothic', 16px, black );
+    padding: 5px 0;
+}
+.input-login{
+    border-radius: 10px;
+    border: 1px solid azure;
+    outline: none;
+    width: 60%;
+    height: 2em;
+}
+.btn-login{
+    background-color: #00A86B;
+    border-radius: 15px;
+    padding: 5px 20px;
+    padding: 5px 20px 5px 25px;
+    width: 40%;
+    text-align: center;
+    text-decoration: none;
+    color:white;
+    outline: none;
+    @include font-style( 'Nanum Gothic', 14px, white );
+    margin-top: 10px;
+    align-self: center;
+}
+.btn-login:hover{
+    background-color: #29ab87;
+}
+footer{
+    background-color: black;
+    height: 10vh;
+    width: 100vw;
+    @include flexbox( 0, center, center );
+    margin: 0;
+    @include font-style( 'Nanum Gothic', 10px, white );
+}

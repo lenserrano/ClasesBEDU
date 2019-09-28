@@ -1,0 +1,56 @@
+/*------------ $COLORS ------------*/
+/* Background-Color */
+$bg_nav: #e0f1f9 !default; /* light blue */
+$bg_hero: url('../img/background.jpg'); /* img beach */
+$bg_contact: #9ec1d2 !default; /* gray blue */
+$bg_footer: #14455e !default; /* dark blue */
+$bg_button: transparent; 
+$bg_buttonhover: #2c89b9;
+$bg_input: url('../img/icon-travel.svg');
+$bg_facebook: url('../img/facebook.svg');
+$bg_twitter: url('../img/twitter.svg');
+$bg_instagram: url('../img/instagram.svg');
+
+/* Font-Color */
+$color_nav: #042333;
+$color_hero: #fff;
+$color_main: #0f2d3c;
+/* ∫ */
+$color_footer: #d6e1e6;
+$color_linkhover: #0a4d70;
+$color_linkvisited: #1f9fdf;
+$color_buttonhover: #edf3f6;
+$color_title: #0881bf;
+$color_signhover: #ecf3f6;
+
+/* Border-Color */
+$color_borderbutton: #353c40;
+$color_borderinput: #FAFAFA;
+$color_borderinputfocus: #49bef8;
+
+/*------------ $FONTS ------------*/
+/* Sans-serif */
+$font_title: 'Varela Round', sans-serif;
+$font_normal: 'Barlow', sans-serif;
+
+/* Sizes */
+$fs_main: 32px;
+$fs_title: 2rem; /* 64px */
+$fs_subtitle: 1.5rem; /* 48px */
+$fs_normal: 1rem; /* 32px */
+$fs_small: .31rem; /* 10px */
+$fs_big: .81rem; /* 26px */
+$fs_nav: 1em; /* 32px*/
+
+/*------------ $BORDERS ------------*/
+$radius: 15px;
+$bordersign: 1px solid #6ebde5;
+$borderbutton: 3px solid #17506c;
+
+/*------------ $MARGIN ------------*/
+$top_destinos: 5px;
+$c_margin: 20px;
+$s_margin: 10px;
+
+/*------------ $SIZES ------------*/
+$icon_size: 25px;

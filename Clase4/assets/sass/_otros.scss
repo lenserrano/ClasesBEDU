@@ -1,0 +1,33 @@
+.icon-travels{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+}
+#mexico-photo{
+    background-image: url('../img/cancun.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px !important;
+}
+#france-photo{
+    background-image: url('../img/france.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px !important;
+}
+#london-photo{
+    background-image: url('../img/london.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    height: 200px !important;
+}
